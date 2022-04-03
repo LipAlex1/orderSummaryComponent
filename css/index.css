@@ -1,0 +1,14 @@
+/* === General Styles === */
+
+:root {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/pattern-background-desktop.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
