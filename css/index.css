@@ -11,4 +11,35 @@ body {
   background-image: url('../images/pattern-background-desktop.svg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+/* === Content Styles === */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 29.296%;
+  height: auto;
+  margin: 7.813% 0% 6.576% 32.227%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+
+.hero_container img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+  width: 78.67%;
+}
+
+p {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  width: 78.67%;
 }
