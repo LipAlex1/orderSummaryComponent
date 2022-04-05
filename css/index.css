@@ -27,11 +27,15 @@ main {
   border-radius: 20px;
 }
 
+/* === Hero Image Section Styles === */
+
 .hero_container img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   max-width: 100%;
 }
+
+/* === Text Section Styles === */
 
 h1 {
   text-align: center;
@@ -43,6 +47,8 @@ p {
   color: hsl(224, 23%, 55%);
   width: 78.67%;
 }
+
+/* === Annual Plan Confirmation Section Styles === */
 
 ul {
   margin-top: 0;
@@ -68,4 +74,19 @@ li {
 li a {
   font-size: .8rem;
   font-weight: 700;
+}
+
+/* === Purchase Button Styles === */
+
+.purchase {
+  width: 78.67%;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  margin-top: 2.22%;
+  padding: 3% 0;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px hsl(224, 23%, 55%);
 }
