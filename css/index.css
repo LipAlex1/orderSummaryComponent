@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url('../images/pattern-background-desktop.svg');
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-color: hsl(225, 100%, 94%);
 }
@@ -42,4 +42,30 @@ p {
   text-align: center;
   color: hsl(224, 23%, 55%);
   width: 78.67%;
+}
+
+ul {
+  margin-top: 0;
+  padding: 0;
+  width: 78.67%;
+  display: inline-flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 20px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+}
+
+.subheading {
+  width: 100%;
+}
+
+li a {
+  font-size: .8rem;
+  font-weight: 700;
 }
