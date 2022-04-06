@@ -122,3 +122,32 @@ li a:active {
 #cancel_order:hover {
   cursor: pointer;
 }
+
+/* === Breakpoint Rules Mobile Devices up to 425px wide === */
+
+@media only screen and (max-width: 475px) {
+  body {
+    background-image: url('../images/pattern-background-mobile.svg');
+    background-size: 100%;
+  }
+
+  main {
+    width: 87.2%;
+    margin: 18.933% 6.4%;
+  }
+}
+
+/* === Breakpoint Rules Tablets up to 768px wide === */
+
+@media only screen and (min-width: 476px) and (max-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    width: 55%;
+    margin: 0;
+  }
+}
